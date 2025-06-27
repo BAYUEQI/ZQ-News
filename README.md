@@ -2,7 +2,6 @@
 
 <a href="https://hellogithub.com/repository/c2978695e74a423189e9ca2543ab3b36" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=c2978695e74a423189e9ca2543ab3b36&claim_uid=SMJiFwlsKCkWf89&theme=small" alt="Featured｜HelloGitHub" /></a>
 
-![](/public/og-image.png)
 
 
 ***优雅地阅读实时热门新闻***
@@ -71,19 +70,13 @@ ENABLE_CACHE=true
 ```
 
 ### 数据库支持
-本项目主推 Cloudflare Pages 以及 Docker 部署， Vercel 需要你自行搞定数据库，其他支持的数据库可以查看 https://db0.unjs.io/connectors 。
+本项目主推 Cloudflare Pages， Vercel 需要你自行搞定数据库，其他支持的数据库可以查看 https://db0.unjs.io/connectors 。
 
 1. 在 Cloudflare Worker 控制面板创建 D1 数据库
 2. 在 `wrangler.toml` 中配置 `database_id` 和 `database_name`
 3. 若无 `wrangler.toml` ，可将 `example.wrangler.toml` 重命名并修改配置
 4. 重新部署生效
 
-### Docker 部署
-对于 Docker 部署，只需要项目根目录 `docker-compose.yaml` 文件，同一目录下执行
-```
-docker compose up
-```
-同样可以通过 `docker-compose.yaml` 配置环境变量。
 
 ## 开发
 > [!Note]
@@ -105,9 +98,6 @@ pnpm dev
 ## 贡献指南
 欢迎贡献代码！您可以提交 pull request 或创建 issue 来提出功能请求和报告 bug
 
-## License
-
-[MIT](./LICENSE) © ourongxing
 
 ## 赞赏
 如果本项目对你有所帮助，可以给小猫买点零食。如果需要定制或者其他帮助，请通过下列方式联系备注。
