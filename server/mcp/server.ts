@@ -7,7 +7,7 @@ import { description } from "./desc.js"
 export function getServer() {
   const server = new McpServer(
     {
-      name: "NewsNow",
+      name: "ZQ-News",
       version: packageJSON.version,
     },
     { capabilities: { logging: {} } },
