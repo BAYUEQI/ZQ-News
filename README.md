@@ -1,14 +1,7 @@
-# NewsNow
-
-<a href="https://hellogithub.com/repository/c2978695e74a423189e9ca2543ab3b36" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=c2978695e74a423189e9ca2543ab3b36&claim_uid=SMJiFwlsKCkWf89&theme=small" alt="Featured｜HelloGitHub" /></a>
-
+# ZQ-News
 
 
 ***优雅地阅读实时热门新闻***
-
-> [!NOTE]
-> 当前版本为 DEMO，仅支持中文。正式版将提供更好的定制化功能和英文内容支持。
->
 
 ## 功能特性
 - 优雅的阅读界面设计，实时获取最新热点新闻
